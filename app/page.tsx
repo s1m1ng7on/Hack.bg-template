@@ -9,7 +9,7 @@ export default function Home() {
 
       <div className="columns">
         <div className="column-half">
-          <img className="image" src="/image01.jpg" alt="image01" />
+          <img className="image" src="image1.png" />
         </div>
         <div className="column-half">
           <h2 className="section-title">Introduction</h2>
@@ -27,7 +27,7 @@ export default function Home() {
           </p>
         </div>
         <div className="column-half">
-          <img className="image" src="/image01.jpg" alt="image01" />
+          <img className="image" src="image2.png" />
         </div>
       </div>
 
@@ -41,10 +41,10 @@ export default function Home() {
       <div className="container">
         <h2 className="section-title">Gallery</h2>
         <div className="gallery">
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image02.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
+          <img className="gallery-image" src="image3.png" />
+          <img className="gallery-image" src="image4.png" />
+          <img className="gallery-image" src="image5.png" />
+          <img className="gallery-image" src="image6.png" />
         </div>
       </div>
 

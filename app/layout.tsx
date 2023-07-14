@@ -38,16 +38,19 @@ export default function RootLayout({
       <body className={pixeloidSans.className}>
         <nav className="navigation">
           <Link className={`${cyrillicPixel.className} navigation-logo`} href="/">
-            <img src="/.png"></img>
+            <img src="logo.png"></img>
             Kinter Classic
           </Link>
 
           <div>
+          <Link className="navigation-link" href="/">
+            HOME
+          </Link>
           <Link className="navigation-link" href="/about">
             ABOUT
           </Link>
-          <Link className="navigation-link" href="/contact">
-            CONTACT
+          <Link className="navigation-link" href="/download">
+            DOWNLOAD
           </Link>
           </div>
         </nav>
