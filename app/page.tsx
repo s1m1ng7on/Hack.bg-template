@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <div className="cover">
-        <h1 className="title">Enter your title</h1>
+        <h1 className="title">The original, remastered</h1>
       </div>
 
       <div className="columns">
@@ -14,22 +14,16 @@ export default function Home() {
         <div className="column-half">
           <h2 className="section-title">Introduction</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            reiciendis alias saepe nam atque molestias, perspiciatis itaque, ad
-            perferendis minus odio laborum dolore, aliquid natus non quia
-            debitis at omnis!
+          Kinter Classic is an exciting 2D platformer game that takes players on a thrilling adventure through six captivating levels, each offering unique biomes, settings, and challenges. As the protagonist of the game, you embark on a quest to acquire knowledge and test your wits through engaging quizzes.
           </p>
         </div>
       </div>
 
       <div className="columns">
         <div className="column-half">
-          <h2 className="section-title">Some more info</h2>
+          <h2 className="section-title">Environment</h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis
-            reiciendis alias saepe nam atque molestias, perspiciatis itaque, ad
-            perferendis minus odio laborum dolore, aliquid natus non quia
-            debitis at omnis!
+          In this immersive platformer, you'll explore diverse landscapes, ranging from lush forests to icy tundras, scorching deserts to mystical caves, and futuristic cityscapes to ancient ruins. Each level presents its own distinct visual style, filled with vibrant colors, intricate details, and atmospheric soundtracks, enhancing the overall gaming experience.
           </p>
         </div>
         <div className="column-half">
@@ -38,11 +32,9 @@ export default function Home() {
       </div>
 
       <div className="container">
-        <h2 className="section-title">Some text</h2>
+        <h2 className="section-title">Difficulty</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci,
-          incidunt! Eius iste omnis unde maxime ut quidem. Eos, dolore
-          repellendus ipsum voluptas possimus et dicta at ad nihil sit officiis!
+        As you progress through the game, you'll encounter a wide variety of monsters and enemies, each with their own behaviors and abilities. From mischievous imps to towering bosses, you'll need to utilize your platforming skills, quick reflexes, and clever strategies to overcome these challenges and advance to the next level.
         </p>
       </div>
 
@@ -53,52 +45,38 @@ export default function Home() {
           <img className="gallery-image" src="/image02.jpg" alt="image01" />
           <img className="gallery-image" src="/image01.jpg" alt="image01" />
           <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
-          <img className="gallery-image" src="/image01.jpg" alt="image01" />
         </div>
       </div>
 
       <div className="container">
-        <h2 className="section-title">Our clients</h2>
+        <h2 className="section-title">Reviews</h2>
         <div className="card-container">
           <div className="card">
-            <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <img className="avatar" src="https://i.ytimg.com/vi/xYdI_NIGj2k/frame0.jpg" alt="avatar" />
+            <h3 className="card-name">Ivan The Döner</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+            Kinter Classic is a delightful platformer that not only provides hours of fun gameplay but also encourages learning. The variety of biomes and monsters keeps things exciting, and the quizzes add an educational twist that makes it perfect for both entertainment and knowledge enrichment.
             </p>
           </div>
           <div className="card">
-            <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <img className="avatar" src="https://ludsport.net/wp-content/uploads/2023/02/screenshot758603.jpg" alt="avatar" />
+            <h3 className="card-name">The Chechen</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+            I absolutely love Kinter Classic! The visuals are stunning, and each level feels like a unique adventure. The combination of platforming challenges and quizzes keeps me engaged and motivated to improve my skills while expanding my knowledge. It's a game that entertains and educates in the best possible way.
             </p>
           </div>
           <div className="card">
-            <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <img className="avatar" src="https://i.ytimg.com/vi/BHsLLQAhtMw/maxresdefault.jpg" alt="avatar" />
+            <h3 className="card-name">Tosho The Hook</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+            Kinter Classic is a nostalgic trip down memory lane with its classic 2D platforming mechanics. The diverse levels and beautifully designed biomes create a visually appealing world to explore. The addition of quizzes is a brilliant touch, making this game not only entertaining but also intellectually stimulating. Highly recommended for gamers of all ages!
             </p>
           </div>
           <div className="card">
-            <img className="avatar" src="/avatar.png" alt="avatar" />
-            <h3 className="card-name">Name</h3>
+            <img className="avatar" src="https://zvezden.com/wp-content/uploads/2023/05/emili-s-trotinetkata.webp" alt="avatar" />
+            <h3 className="card-name">Emily The Scooter</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-              pariatur ullam aliquid inventore nam, eligendi unde, obcaecati hic
-              minima perferendis numquam. Aliquam esse non possimus mollitia,
-              quisquam atque! Explicabo, hic?
+            Kinter Classic is a standout platformer that successfully blends fun and education. The level design is top-notch, offering a perfect balance of challenging obstacles and intriguing quizzes. I appreciate how the game seamlessly integrates knowledge-building into the gameplay, making it a great choice for those seeking both entertainment and mental stimulation.
             </p>
           </div>
         </div>
