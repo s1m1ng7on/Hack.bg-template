@@ -23,7 +23,7 @@ export default function Home() {
         <div className="column-half">
           <h2 className="section-title">Environment</h2>
           <p>
-          In this immersive platformer, you'll explore diverse landscapes, ranging from lush forests to icy tundras, scorching deserts to mystical caves, and futuristic cityscapes to ancient ruins. Each level presents its own distinct visual style, filled with vibrant colors, intricate details, and atmospheric soundtracks, enhancing the overall gaming experience.
+          In this immersive platformer, you will explore diverse landscapes, ranging from lush forests to icy tundras, scorching deserts to mystical caves, and futuristic cityscapes to ancient ruins. Each level presents its own distinct visual style, filled with vibrant colors, intricate details, and atmospheric soundtracks, enhancing the overall gaming experience.
           </p>
         </div>
         <div className="column-half">
@@ -34,17 +34,17 @@ export default function Home() {
       <div className="container">
         <h2 className="section-title">Difficulty</h2>
         <p>
-        As you progress through the game, you'll encounter a wide variety of monsters and enemies, each with their own behaviors and abilities. From mischievous imps to towering bosses, you'll need to utilize your platforming skills, quick reflexes, and clever strategies to overcome these challenges and advance to the next level.
+        As you progress through the game, you will encounter a wide variety of monsters and enemies, each with their own behaviors and abilities. From mischievous imps to towering bosses, you will need to utilize your platforming skills, quick reflexes, and clever strategies to overcome these challenges and advance to the next level.
         </p>
       </div>
 
       <div className="container">
         <h2 className="section-title">Gallery</h2>
         <div className="gallery">
-          <img className="gallery-image" src="image3.png" />
-          <img className="gallery-image" src="image4.png" />
-          <img className="gallery-image" src="image5.png" />
-          <img className="gallery-image" src="image6.png" />
+          <img className="gallery-image" src="image3.png" alt="" />
+          <img className="gallery-image" src="image4.png" alt="" />
+          <img className="gallery-image" src="image5.png" alt="" />
+          <img className="gallery-image" src="image6.png" alt="" />
         </div>
       </div>
 
@@ -62,7 +62,7 @@ export default function Home() {
             <img className="avatar" src="https://ludsport.net/wp-content/uploads/2023/02/screenshot758603.jpg" alt="avatar" />
             <h3 className="card-name">The Chechen</h3>
             <p>
-            I absolutely love Kinter Classic! The visuals are stunning, and each level feels like a unique adventure. The combination of platforming challenges and quizzes keeps me engaged and motivated to improve my skills while expanding my knowledge. It's a game that entertains and educates in the best possible way.
+            I absolutely love Kinter Classic! The visuals are stunning, and each level feels like a unique adventure. The combination of platforming challenges and quizzes keeps me engaged and motivated to improve my skills while expanding my knowledge. It is a game that entertains and educates in the best possible way.
             </p>
           </div>
           <div className="card">
