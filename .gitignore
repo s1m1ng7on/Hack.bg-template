@@ -35,4 +35,5 @@ yarn-error.log*
 next-env.d.ts
 
 # Custom ignore
-startLocalhost.bat
+run-build.bat
+run-dev.bat
