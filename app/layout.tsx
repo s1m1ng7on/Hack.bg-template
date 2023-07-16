@@ -3,14 +3,22 @@ import type { Metadata } from 'next';
 import localFont from 'next/font/local'
 import Link from 'next/link';
 
+const kumbhSans = localFont({
+  src: [
+    {
+      path: '../public/fonts/KumbhSans.ttf',
+      weight: '400'
+    }
+  ]
+});
+
 const cyrillicPixel = localFont({
   src: [
     {
-      path: '../public/fonts/cyrillic_pixel-7.ttf',
+      path: '../public/fonts/CyrillicPixel.ttf',
       weight: '400'
     }
-  ],
-  variable: '--font-cyrillic-pixel'
+  ]
 });
 
 const pixeloidSans = localFont({
@@ -19,13 +27,12 @@ const pixeloidSans = localFont({
       path: '../public/fonts/PixeloidSans.ttf',
       weight: '400'
     }
-  ],
-  variable: '--font-pixeloid-sans'
+  ]
 })
 
 export const metadata: Metadata = {
-  title: 'Kinter Classic',
-  description: 'The original, remastered.',
+  title: 'Inferno Games',
+  description: 'Bringing immersive gaming experiences to life with cutting-edge technology',
 };
 
 export default function RootLayout({
@@ -35,11 +42,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={pixeloidSans.className}>
-        <nav className="navigation">
-          <Link className={`${cyrillicPixel.className} navigation-logo`} href="/">
+      <body className={kumbhSans.className}>
+      <nav className="navigation">
+          <Link className="navigation-logo" href="/">
             <img src="logo.png" alt="" />
-            Kinter Classic
           </Link>
 
           <div>
@@ -55,7 +61,9 @@ export default function RootLayout({
           </div>
         </nav>
         <main className="main-container">{children}</main>
-        <footer>© Inferno Games 2021-2023. All rights reserved</footer>
+        <footer>
+          © Inferno Games 2021-2023. All rights reserved
+          </footer>
       </body>
     </html>
   );

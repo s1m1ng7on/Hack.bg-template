@@ -7,40 +7,33 @@ export default function Home() {
         <h1 className="title">The original, remastered</h1>
       </div>
 
-      <div className="columns">
-        <div className="column-half">
-          <img className="image" src="image1.png" />
-        </div>
-        <div className="column-half">
-          <h2 className="section-title">Introduction</h2>
-          <p>
-          Kinter Classic is an exciting 2D platformer game that takes players on a thrilling adventure through six captivating levels, each offering unique biomes, settings, and challenges. As the protagonist of the game, you embark on a quest to acquire knowledge and test your wits through engaging quizzes.
-          </p>
-        </div>
-      </div>
-
-      <div className="columns">
-        <div className="column-half">
-          <h2 className="section-title">Environment</h2>
-          <p>
-          In this immersive platformer, you will explore diverse landscapes, ranging from lush forests to icy tundras, scorching deserts to mystical caves, and futuristic cityscapes to ancient ruins. Each level presents its own distinct visual style, filled with vibrant colors, intricate details, and atmospheric soundtracks, enhancing the overall gaming experience.
-          </p>
-        </div>
-        <div className="column-half">
-          <img className="image" src="image2.png" />
-        </div>
-      </div>
-
       <div className="container">
-        <h2 className="section-title">Difficulty</h2>
-        <p>
-        As you progress through the game, you will encounter a wide variety of monsters and enemies, each with their own behaviors and abilities. From mischievous imps to towering bosses, you will need to utilize your platforming skills, quick reflexes, and clever strategies to overcome these challenges and advance to the next level.
-        </p>
+        <h2 className="section-title">FEATURED GAMES</h2>
+        <div className="section-content">
+          <div className="game-card">
+            <h2 className="{kumbhSans.className}">Air Rush</h2>
+            <h3>2023</h3>
+            <p>Control your character in a 2D platformer, manipulate platforms to hinder opponents.</p>
+            <button>VIEW</button>
+          </div>
+          <div className="game-card">
+            <h2 className="{kumbhSans.className}">Kinter 2</h2>
+            <h3>2022</h3>
+            <p>Follow Kinter's action-packed adventures in Ancient Greece.</p>
+            <button>VIEW</button>
+          </div>
+          <div className="game-card">
+            <h2 className="{kumbhSans.className}">Kinter Classic</h2>
+            <h3>2021</h3>
+            <p>The original and the first - A CLASSIC of its kind.</p>
+            <button>VIEW</button>
+          </div>
+        </div>
       </div>
 
       <div className="container">
         <h2 className="section-title">Gallery</h2>
-        <div className="gallery">
+        <div className="section-content">
           <img className="gallery-image" src="image3.png" alt="" />
           <img className="gallery-image" src="image4.png" alt="" />
           <img className="gallery-image" src="image5.png" alt="" />
