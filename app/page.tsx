@@ -19,7 +19,7 @@ export default function Home() {
           <div className="game-card">
             <h2 className="{kumbhSans.className}">Kinter 2</h2>
             <h3>2022</h3>
-            <p>Follow Kinter's action-packed adventures in Ancient Greece.</p>
+            <p>Follow Kinter`&apos;`s action-packed adventures in Ancient Greece.</p>
             <button>VIEW</button>
           </div>
           <div className="game-card">
