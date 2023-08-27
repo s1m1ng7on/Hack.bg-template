@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <div className="cover">
-        <h1 className="title">The original, remastered</h1>
+        <h1 className="title">Bringing immersive gaming experiences to life with cutting-edge technology</h1>
       </div>
 
       <div className="container">
